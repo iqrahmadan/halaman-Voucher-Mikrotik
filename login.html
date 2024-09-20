@@ -26,7 +26,7 @@
 						<div class="row">
 							<div class="col-12">
 								<div class="card  box-shadow">
-									<div class="card-header bg-primary"><h3>Silakan Login</h3></div>
+									<div class="card-header bg-primary"><h3>SILAKAN LOGIN</h3></div>
 									<div class="card-body">
 								$(if chap-id)
 									<form name="sendin" action="$(link-login-only)" method="post">
@@ -55,20 +55,11 @@
 						<input type="hidden" name="dst" value="$(link-orig)" />
 						<input type="hidden" name="popup" value="true" />
 							<div class="row">
-								<div class="col-4 col-md-4"> 
-								<div class="box mr-2 pointer text-center text-light" id="btnvcr" onclick="voucher()">Voucher</div>
-								</div>
-								<div class="col-4 col-md-4">
-								<div class="box mr-2 pointer text-center text-light" id="btnmem" onclick="member()">Member</div>
-								</div>
-								<div class="col-4 col-md-4">
-								<div class="box mr-2 pointer text-center text-light bg-blue" id="qr" onclick="window.location='https://laksa19.github.io/myqr';">QR Code</div>
-								</div>
+								<div class="box mr-2 pointer text-center text-light" id="btnmem" ><h3>Masukan Voucher</h3></div>
 							</div>
 								<input class="form-control-md mr-t-10 plch-center" name="username" type="text" value="$(username)" placeholder="Voucher" />
 								<input class="form-control-md mr-t-10 plch-center" name="password" type="hidden" placeholder="Password" />
-
-							<div class="text-center mr-t-10">
+								<div class="text-center mr-t-10">
 								<button type="submit" class="w-12 btn-md bg-success pd-5">Login</button>
 							</div>
 					</form>
@@ -77,14 +68,14 @@
 				$(if error)<div class="alert bg-danger text-center mr-t-10">$(error)</div>$(endif)
 			</div>
 			<div class="card-footer bg-primary mr-t-10 text-center">
-				$(if trial == 'yes')Coba gratis klik <a class="text-pink text-bold" href="$(link-login-only)?dst=$(link-orig-esc)&amp;username=T-$(mac-esc)">di sini</a>$(endif)
+				
 			</div>
 		</div>
 	</div>
 	<div class="col-12">
 		<div class="card box-shadow">
 			<div class="card-header bg-warning"><h3>Catatan</h3></div>
-			<div class="card-body align-middle">Kode Voucher / Username menggunakan huruf kecil.<br> Klik pada tab QR Code, jika kamera tidak tampil klik "Open in Chrome" dan izinkan akses kamera.</div>
+			<div class="card-body align-middle">Kode Voucher/Username menggunakan huruf kecil.<br>Hubungi Nomor 081286878710 jika voucher tidak bisa di gunakan.<br> Harga diatas Untuk 1 Device</div>
 		</div>
 	</div>
 </div>
@@ -96,24 +87,24 @@
 				<div class="card box-shadow">
 					<div class="card-header bg-success"><h3>WARUNG KALKUN</h3></div>
 					<div class="card-body">
-						<p>Kemangi 41, internet murah dengan iuran terjangkau.</p>
-						<p>Voucher iuran bisa didapatkan di Gang kluweh No. 21(Rosi), Gang Kemangi No. 41.</p>
+						<p>Internet dengan voucher di warung kalkun sangat terjangkau dan juga bisa jajan loh!!</p>
+						<p>Voucher internet bisa didapatkan di Warung kalkun. untuk jadi reseller juga bisa loh</p>
 					</div>
 				</div>				
 			</div>
 			<div class="col-12">
 				<div class="card box-shadow">
-					<div class="card-header bg-cyan"><h3>Iuran Internet</h3></div>
+					<div class="card-header bg-cyan"><h3>HARGA INTERNET</h3></div>
 					<div class="card-body">
 						<div class="row">
 							<div class="col-6">
 								<div class="box bg-pink bmh-60">
 									<div class="box-group">
-            							<div class="box-group-icon">3H</div>
+            							<div class="box-group-icon">4H</div>
               							<div class="box-group-area">
                 						<span>
-                							Rp 1.000<br>
-                							Masa Aktif 3 Jam<br>
+                							Rp 3.000<br>
+                							Masa Aktif 4 Jam<br>
                 						</span>
               							</div>
             						</div>
@@ -122,11 +113,11 @@
 							<div class="col-6">
 								<div class="box bg-red bmh-60">
 									<div class="box-group">
-            							<div class="box-group-icon">6H</div>
+            							<div class="box-group-icon">8H</div>
               							<div class="box-group-area">
                 						<span>
-                							Rp 2.000<br>
-                							Masa Aktif 6 Jam<br>
+                							Rp 5.000<br>
+                							Masa Aktif 8 Jam<br>
                 						</span>
               							</div>
             						</div>
@@ -138,7 +129,7 @@
             							<div class="box-group-icon">1D</div>
               							<div class="box-group-area">
                 						<span>
-                							Rp 3.00<br>
+                							Rp 10.000<br>
                 							Masa Aktif 1 Hari<br>
                 						</span>
               							</div>
@@ -151,7 +142,7 @@
             							<div class="box-group-icon">2D</div>
               							<div class="box-group-area">
                 						<span>
-                							Rp 5.000<br>
+                							Rp 15000<br>
                 							Masa Aktif 2 Hari<br>
                 						</span>
               							</div>
@@ -164,7 +155,7 @@
             							<div class="box-group-icon">7D</div>
               							<div class="box-group-area">
                 						<span>
-                							Rp 15.000<br>
+                							Rp 35.000<br>
                 							Masa Aktif 7 Hari<br>
                 						</span>
               							</div>
@@ -177,7 +168,7 @@
             							<div class="box-group-icon">1M</div>
               							<div class="box-group-area">
                 						<span>
-                							Rp 35.000<br>
+                							Rp 80.000<br>
                 							Masa Aktif 30 Hari<br>
                 						</span>
               							</div>
@@ -187,7 +178,7 @@
 						</div>
 					</div>
 					<div class="card-footer bg-cyan pd-l-10">
-						<i>Copyright &copy; 2018 Laksamadi</i>
+						<i>Copyright &copy; 2024</i>
 	  					<i>Powered by <a class="text-light" href="https://laksa19.github.io">Mikhmon</a></i> <!-- Tolong jangan dihilangkan bagian ini-->
 					</div>
 				</div>
